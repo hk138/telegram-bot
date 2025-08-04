@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-BOT_TOKEN = 'توکن ربات خودت رو اینجا بذار'
+BOT_TOKEN = '8117664156:AAFdfRxZ-7t0qXdQ_FUrcBbC7dY23Xs5BFw'
 
 @app.route('/', methods=['GET'])
 def index():
@@ -33,6 +33,7 @@ def webhook():
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8080))
     app.run(host='0.0.0.0', port=port)
+
 
 
 
